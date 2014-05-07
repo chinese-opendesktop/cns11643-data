@@ -1,0 +1,7 @@
+cns2big5: CNS 對五大碼，包含 Big5E、七個倚天外字集、符號及控制字元
+cns2dci: CNS 對公路監理單位所使用的電信內碼
+cns2fin: CNS 對稅務內碼
+cns2inc: CNS 對工商內碼
+cns2tax: CNS 對財稅交換碼
+cns2uni: CNS 對萬國碼，包含 Unicode 第 0,2,15 字面
+cns2land: CNS 地政造字，包含 Big5 碼、縣市名稱
