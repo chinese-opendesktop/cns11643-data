@@ -1,0 +1,40 @@
+﻿EXTCMING & EXTCKAI are derived from EUDCMING & EUDCKAI produced by "CNS Software Package".
+End users can download Gaiji (Hanzi outside Big-5 range) from CNS11643 website and use the package to 
+produce EUDC fonts (End User Defined Character) for Big5-based Windows system. Then the fonts are 
+converted from UDA (User Defined Area) Big-5 font to Unicode font based on codepoint information provided 
+by Unicode 8.0 Code Charts.
+
+Version history:
+
+Version 1.01: fixs wrong mappings of U+2B820(弋-丶),U+2C3C9(田完), U+2C3CB(田龷𧘇), U+2C3CD(申申申) and U+2C3D4
+
+Version 1.00: adds T-source (Taiwan source) characters in CJK Ext. E block introduced in Unicode 8.0
+
+Version 0.03: covers T-source characters in CJK Ext. C and CJK Ext. D blocks introduced in Unicode 5.2 and
+Unicode 6.0
+
+Thanks to Andrew West (Author of Babelstone Han font) (http://www.babelstone.co.uk) for his source mapping 
+and IDS (Ideographic Description Sequence) data of CJK_E characters.
+
+License: 
+See the CNS Authorization page. (http://www.cns11643.gov.tw/AIDB/cns_authorization_statement_en.do)
+
+EXTCMING & EXTCKAI 衍生自CNS11643全字庫的自造字字體。一般個人使用者可利用全字庫網站
+個別下載造字，利用全字庫網站提供的「全字庫軟體包」將造字串連成適用於Big5碼的Windows平台的
+造字字庫。本字體利用系統字體(細明體、標楷體)的造字檔EUDCMING & EUDCKAI 透過內碼轉換，
+將Big5碼中的UDA(用戶造字區)轉換成Unicode 8.0 內碼表定義的Unicode。
+
+
+版本歷史
+
+Version 1.01: 修正U+2B820(弋-丶)U+2C3C9(田完), U+2C3CB(田龷𧘇), U+2C3CD(申申申), U+2C3D4(番分) 的錯誤對應
+
+Version 1.00: 新增Unicode 8.0 中CJK Ext. E收錄的CNS戶政用字
+
+Version 0.03: 涵蓋Unicode 5.2 中CJK Ext. C 及 Unicode 6.0 中CJK Ext. D 收錄的CNS戶政用字
+
+鳴謝Babelstone作者Andrew West (http://www.babelstone.co.uk) 提供CJK_E 的來源以及IDS(表意文字描述
+序列)數據。
+
+版權：
+請參照全字庫授權聲明 (http://www.cns11643.gov.tw/AIDB/copyright.do)
