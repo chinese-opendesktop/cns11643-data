@@ -1,0 +1,26 @@
+StartChar: afii57440
+Encoding: 1600 1600 1380
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_4
+ 1
+ 4
+ 0
+ 4
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+356 58 m 1,0,-1
+ 356 114 l 1,1,-1
+ 546 114 l 1,2,-1
+ 546 58 l 1,3,-1
+ 356 58 l 1,0,-1
+EndSplineSet
+EndChar

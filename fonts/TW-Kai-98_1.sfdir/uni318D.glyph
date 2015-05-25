@@ -1,0 +1,73 @@
+StartChar: uni318D
+Encoding: 12685 12685 8708
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_3
+ 4
+ 12
+ 3
+CALL
+NPUSHW
+ 27
+ 22
+ 4
+ 38
+ 4
+ 54
+ 4
+ 70
+ 4
+ 86
+ 4
+ 102
+ 4
+ 118
+ 4
+ 134
+ 4
+ 150
+ 4
+ 166
+ 4
+ 182
+ 4
+ 198
+ 4
+ 214
+ 4
+ 13
+DELTAP1
+NPUSHW
+ 5
+ 229
+ 4
+ 245
+ 4
+ 2
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 8
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+501 358 m 0,0,1
+ 525 358 525 358 542 340 c 0,2,3
+ 556 325 556 325 556 304 c 0,4,5
+ 556 279 556 279 538 263 c 0,6,7
+ 522 249 522 249 501 249 c 0,8,9
+ 476 249 476 249 460 267 c 0,10,11
+ 446 282 446 282 446 304 c 0,12,13
+ 446 328 446 328 464 344 c 0,14,15
+ 480 358 480 358 501 358 c 0,0,1
+EndSplineSet
+EndChar

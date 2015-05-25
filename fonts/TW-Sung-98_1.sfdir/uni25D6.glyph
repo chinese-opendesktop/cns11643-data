@@ -1,0 +1,27 @@
+StartChar: uni25D6
+Encoding: 9686 9686 6794
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 0
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+512 644 m 1,0,-1
+ 512 -26 l 1,1,2
+ 398 -24 398 -24 317 36 c 0,3,4
+ 178 138 178 138 178 309 c 0,5,6
+ 178 421 178 421 242 506 c 0,7,8
+ 342 640 342 640 512 644 c 1,0,-1
+EndSplineSet
+EndChar

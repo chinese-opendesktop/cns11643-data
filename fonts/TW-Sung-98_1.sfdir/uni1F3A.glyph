@@ -1,0 +1,207 @@
+StartChar: uni1F3A
+Encoding: 7994 7994 5321
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_1
+ 39
+MDAP[rnd]
+PUSHW_1
+ 13
+MDAP[rnd]
+PUSHW_2
+ 4
+ 5
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 39
+SRP0
+PUSHW_1
+ 31
+MDRP[rp0,grey]
+PUSHW_1
+ 31
+MDAP[rnd]
+PUSHW_3
+ 20
+ 31
+ 4
+SRP1
+SRP2
+IP
+PUSHW_3
+ 22
+ 31
+ 4
+SRP1
+SRP2
+IP
+PUSHW_1
+ 25
+MDRP[rp0,grey]
+PUSHW_1
+ 25
+MDAP[rnd]
+PUSHW_1
+ 31
+SRP0
+PUSHW_2
+ 37
+ 5
+MIRP[rp0,rnd,grey]
+NPUSHW
+ 31
+ 22
+ 37
+ 38
+ 37
+ 54
+ 37
+ 70
+ 37
+ 86
+ 37
+ 102
+ 37
+ 118
+ 37
+ 134
+ 37
+ 150
+ 37
+ 166
+ 37
+ 182
+ 37
+ 198
+ 37
+ 214
+ 37
+ 230
+ 37
+ 246
+ 37
+ 15
+DELTAP1
+NPUSHW
+ 19
+ 6
+ 37
+ 22
+ 37
+ 38
+ 37
+ 54
+ 37
+ 70
+ 37
+ 86
+ 37
+ 102
+ 37
+ 118
+ 37
+ 134
+ 37
+ 9
+DELTAP2
+NPUSHW
+ 5
+ 149
+ 37
+ 165
+ 37
+ 2
+DELTAP2
+SVTCA[y-axis]
+PUSHW_1
+ 20
+MDAP[rnd]
+PUSHW_1
+ 33
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 8
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 8
+ 6
+MIAP[no-rnd]
+EIF
+PUSHW_4
+ 19
+ 2
+ 0
+ 4
+CALL
+PUSHW_1
+ 8
+SRP0
+PUSHW_2
+ 6
+ 2
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 10
+MDRP[rp0,grey]
+PUSHW_1
+ 11
+MDRP[rp0,grey]
+PUSHW_1
+ 0
+SRP0
+PUSHW_1
+ 16
+MDRP[rp0,grey]
+PUSHW_3
+ 22
+ 8
+ 20
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+740 582 m 1,0,-1
+ 704 582 l 2,1,2
+ 658 582 658 582 658 550 c 2,3,-1
+ 658 60 l 2,4,5
+ 658 28 658 28 704 27 c 2,6,-1
+ 740 27 l 1,7,-1
+ 740 2 l 1,8,-1
+ 520 2 l 1,9,-1
+ 520 27 l 1,10,-1
+ 558 27 l 2,11,12
+ 600 28 600 28 600 60 c 2,13,-1
+ 600 550 l 2,14,15
+ 600 582 600 582 558 582 c 2,16,-1
+ 520 582 l 1,17,-1
+ 520 607 l 1,18,-1
+ 740 607 l 1,19,-1
+ 740 582 l 1,0,-1
+379 637 m 1,20,-1
+ 456 637 l 1,21,-1
+ 500 486 l 1,22,-1
+ 485 486 l 1,23,-1
+ 379 637 l 1,20,-1
+270 479 m 1,24,-1
+ 258 492 l 1,25,26
+ 288 524 288 524 290 548 c 0,27,28
+ 292 564 292 564 271 570 c 0,29,30
+ 252 576 252 576 252 596 c 0,31,32
+ 252 634 252 634 285 637 c 0,33,34
+ 306 638 306 638 322 622 c 0,35,36
+ 334 608 334 608 334 586 c 0,37,38
+ 334 526 334 526 270 479 c 1,24,-1
+EndSplineSet
+EndChar

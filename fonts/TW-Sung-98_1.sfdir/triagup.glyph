@@ -1,0 +1,25 @@
+StartChar: triagup
+Encoding: 9650 9650 6758
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 1
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+512 725 m 1,0,-1
+ 984 -90 l 1,1,-1
+ 40 -90 l 1,2,-1
+ 512 725 l 1,0,-1
+EndSplineSet
+EndChar

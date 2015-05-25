@@ -1,0 +1,74 @@
+StartChar: zacute
+Encoding: 378 378 317
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 1
+ 8
+MIAP[no-rnd]
+EIF
+PUSHW_3
+ 18
+ 4
+ 3
+CALL
+PUSHW_4
+ 12
+ 2
+ 13
+ 4
+CALL
+PUSHW_1
+ 1
+SRP0
+PUSHW_2
+ 14
+ 2
+MIRP[rp0,rnd,grey]
+PUSHW_3
+ 20
+ 4
+ 18
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+672 126 m 1,0,-1
+ 653 1 l 1,1,-1
+ 344 1 l 1,2,-1
+ 344 22 l 1,3,-1
+ 617 384 l 1,4,-1
+ 530 384 l 2,5,6
+ 457 384 457 384 420 353 c 0,7,8
+ 397 334 397 334 372 287 c 1,9,-1
+ 353 287 l 1,10,-1
+ 375 407 l 1,11,-1
+ 672 407 l 1,12,-1
+ 672 384 l 1,13,-1
+ 397 23 l 1,14,-1
+ 492 23 l 2,15,16
+ 617 23 617 23 653 126 c 1,17,-1
+ 672 126 l 1,0,-1
+610 592 m 1,18,-1
+ 501 448 l 1,19,-1
+ 487 448 l 1,20,-1
+ 529 592 l 1,21,-1
+ 610 592 l 1,18,-1
+EndSplineSet
+EndChar

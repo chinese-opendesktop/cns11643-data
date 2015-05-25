@@ -1,0 +1,125 @@
+StartChar: uni0F41
+Encoding: 3905 3905 2734
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_3
+ 16
+ 17
+ 3
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 16
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 0
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 0
+ 10
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 8
+MDRP[rp0,min,rnd,grey]
+NPUSHW
+ 5
+ 233
+ 8
+ 249
+ 8
+ 2
+DELTAP1
+NPUSHW
+ 27
+ 24
+ 8
+ 40
+ 8
+ 56
+ 8
+ 72
+ 8
+ 88
+ 8
+ 104
+ 8
+ 120
+ 8
+ 136
+ 8
+ 152
+ 8
+ 168
+ 8
+ 184
+ 8
+ 200
+ 8
+ 216
+ 8
+ 13
+DELTAP1
+PUSHW_3
+ 10
+ 16
+ 0
+SRP1
+SRP2
+IP
+PUSHW_1
+ 0
+SRP0
+PUSHW_2
+ 14
+ 4
+MIRP[rp0,rnd,grey]
+PUSHW_3
+ 25
+ 16
+ 0
+SRP1
+SRP2
+IP
+PUSHW_1
+ 27
+MDRP[rp0,grey]
+PUSHW_1
+ 28
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+686 489 m 1,0,1
+ 670 410 670 410 665 332 c 0,2,3
+ 662 288 662 288 658 143 c 1,4,-1
+ 646 144 l 1,5,-1
+ 644 202 l 1,6,7
+ 602 254 602 254 552 254 c 0,8,9
+ 517 254 517 254 466 242 c 1,10,11
+ 468 282 468 282 480 322 c 0,12,13
+ 488 351 488 351 513 429 c 1,14,-1
+ 388 429 l 1,15,-1
+ 381 94 l 1,16,-1
+ 364 95 l 1,17,18
+ 362 311 362 311 350 429 c 1,19,-1
+ 365 488 l 1,20,-1
+ 686 489 l 1,0,1
+513 313 m 1,21,22
+ 560 300 560 300 580 290 c 0,23,24
+ 604 278 604 278 644 238 c 1,25,26
+ 642 361 642 361 636 429 c 1,27,-1
+ 538 429 l 1,28,29
+ 522 368 522 368 513 313 c 1,21,22
+EndSplineSet
+EndChar

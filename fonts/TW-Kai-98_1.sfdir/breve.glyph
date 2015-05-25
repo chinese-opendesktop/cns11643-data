@@ -1,0 +1,37 @@
+StartChar: breve
+Encoding: 728 728 642
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 8
+MDAP[rnd]
+PUSHW_4
+ 13
+ 4
+ 4
+ 4
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+614 596 m 1,0,1
+ 595 526 595 526 572 495 c 0,2,3
+ 546 462 546 462 499 462 c 0,4,5
+ 457 462 457 462 433 488 c 0,6,7
+ 409 515 409 515 384 596 c 1,8,-1
+ 399 596 l 1,9,10
+ 421 545 421 545 443 526 c 0,11,12
+ 466 506 466 506 499 506 c 0,13,14
+ 563 506 563 506 600 596 c 1,15,-1
+ 614 596 l 1,0,1
+EndSplineSet
+EndChar

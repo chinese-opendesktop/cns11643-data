@@ -1,0 +1,39 @@
+StartChar: asciicircum
+Encoding: 94 94 65
+Width: 512
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_1
+ 5
+MDAP[rnd]
+PUSHW_3
+ 4
+ 0
+ 5
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+429 684 m 1,0,-1
+ 389 685 l 1,1,-1
+ 256 773 l 1,2,-1
+ 120 685 l 1,3,-1
+ 82 685 l 1,4,-1
+ 204 812 l 1,5,-1
+ 307 812 l 1,6,-1
+ 429 684 l 1,0,-1
+EndSplineSet
+EndChar

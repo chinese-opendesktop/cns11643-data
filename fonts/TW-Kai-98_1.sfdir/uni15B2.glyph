@@ -1,0 +1,45 @@
+StartChar: uni15B2
+Encoding: 5554 5554 4124
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_4
+ 1
+ 5
+ 0
+ 4
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 12
+MDAP[rnd]
+PUSHW_3
+ 2
+ 12
+ 0
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+339 559 m 1,0,-1
+ 398 559 l 1,1,-1
+ 398 248 l 1,2,3
+ 448 284 448 284 512 284 c 0,4,5
+ 583 284 583 284 634 241 c 0,6,7
+ 684 198 684 198 684 137 c 0,8,9
+ 684 77 684 77 634 33 c 0,10,11
+ 585 -10 585 -10 512 -10 c 256,12,13
+ 439 -10 439 -10 390 33 c 0,14,15
+ 339 77 339 77 339 137 c 2,16,-1
+ 339 559 l 1,0,-1
+EndSplineSet
+EndChar

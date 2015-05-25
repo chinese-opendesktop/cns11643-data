@@ -1,0 +1,38 @@
+StartChar: logicaland
+Encoding: 8743 8743 5946
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_1
+ 5
+MDAP[rnd]
+PUSHW_3
+ 2
+ 1
+ 5
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+770 8 m 1,0,-1
+ 730 -12 l 1,1,-1
+ 515 415 l 1,2,-1
+ 300 -12 l 1,3,-1
+ 259 4 l 1,4,-1
+ 515 510 l 1,5,-1
+ 770 8 l 1,0,-1
+EndSplineSet
+EndChar

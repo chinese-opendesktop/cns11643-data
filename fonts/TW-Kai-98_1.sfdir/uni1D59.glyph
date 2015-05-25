@@ -1,0 +1,207 @@
+StartChar: uni1D59
+Encoding: 7513 7513 5003
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_1
+ 38
+MDAP[rnd]
+PUSHW_1
+ 27
+MDAP[rnd]
+NPUSHW
+ 5
+ 202
+ 27
+ 218
+ 27
+ 2
+DELTAP2
+NPUSHW
+ 31
+ 25
+ 27
+ 41
+ 27
+ 57
+ 27
+ 73
+ 27
+ 89
+ 27
+ 105
+ 27
+ 121
+ 27
+ 137
+ 27
+ 153
+ 27
+ 169
+ 27
+ 185
+ 27
+ 201
+ 27
+ 217
+ 27
+ 233
+ 27
+ 249
+ 27
+ 15
+DELTAP1
+NPUSHW
+ 25
+ 9
+ 27
+ 25
+ 27
+ 41
+ 27
+ 57
+ 27
+ 73
+ 27
+ 89
+ 27
+ 105
+ 27
+ 121
+ 27
+ 137
+ 27
+ 153
+ 27
+ 169
+ 27
+ 185
+ 27
+ 12
+DELTAP2
+PUSHW_1
+ 3
+MDRP[rp0,grey]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_1
+ 27
+SRP0
+PUSHW_1
+ 5
+MDRP[rp0,grey]
+PUSHW_1
+ 5
+MDAP[rnd]
+PUSHW_1
+ 27
+SRP0
+PUSHW_2
+ 11
+ 6
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 7
+MDRP[rp0,grey]
+PUSHW_1
+ 38
+SRP0
+PUSHW_1
+ 20
+MDRP[rp0,grey]
+PUSHW_1
+ 20
+MDAP[rnd]
+PUSHW_3
+ 9
+ 20
+ 11
+SRP1
+SRP2
+IP
+PUSHW_2
+ 19
+ 6
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 27
+SRP0
+PUSHW_1
+ 29
+MDRP[rp0,grey]
+PUSHW_1
+ 29
+MDAP[rnd]
+PUSHW_1
+ 19
+SRP0
+PUSHW_1
+ 34
+MDRP[rp0,grey]
+PUSHW_1
+ 20
+SRP0
+PUSHW_1
+ 36
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 6
+MDAP[rnd]
+PUSHW_1
+ 19
+MDAP[rnd]
+PUSHW_4
+ 23
+ 4
+ 15
+ 4
+CALL
+PUSHW_4
+ 1
+ 4
+ 9
+ 4
+CALL
+PUSHW_1
+ 9
+SRP0
+PUSHW_1
+ 31
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+308 539 m 1,0,-1
+ 663 539 l 2,1,2
+ 684 539 684 539 689 552 c 256,3,4
+ 694 565 694 565 694 582 c 2,5,-1
+ 694 591 l 1,6,-1
+ 719 591 l 1,7,-1
+ 719 496 l 1,8,-1
+ 639 496 l 1,9,10
+ 719 438 719 438 719 353 c 0,11,12
+ 719 290 719 290 678 259 c 0,13,14
+ 646 236 646 236 594 236 c 2,15,-1
+ 394 236 l 2,16,17
+ 353 236 353 236 353 191 c 2,18,-1
+ 353 184 l 1,19,-1
+ 333 184 l 1,20,21
+ 331 237 331 237 308 281 c 1,22,-1
+ 593 281 l 2,23,24
+ 635 281 635 281 661 300 c 0,25,26
+ 692 322 692 322 692 364 c 0,27,28
+ 692 371 692 371 691 379 c 0,29,30
+ 682 443 682 443 605 496 c 1,31,-1
+ 401 496 l 2,32,33
+ 353 496 353 496 353 445 c 2,34,-1
+ 353 437 l 1,35,-1
+ 333 437 l 1,36,37
+ 331 496 331 496 308 539 c 1,0,-1
+EndSplineSet
+EndChar

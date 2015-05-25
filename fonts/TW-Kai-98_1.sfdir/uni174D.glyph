@@ -1,0 +1,25 @@
+StartChar: uni174D
+Encoding: 5965 5965 4487
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_3
+ 1
+ 0
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+279 235 m 1,0,-1
+ 304 316 l 1,1,-1
+ 737 316 l 1,2,-1
+ 712 235 l 1,3,-1
+ 279 235 l 1,0,-1
+EndSplineSet
+EndChar

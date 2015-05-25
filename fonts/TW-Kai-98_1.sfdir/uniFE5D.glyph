@@ -1,0 +1,36 @@
+StartChar: uniFE5D
+Encoding: 65117 65117 38772
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_4
+ 3
+ 6
+ 0
+ 4
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 6
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+420 560 m 1,0,-1
+ 588 647 l 1,1,-1
+ 602 627 l 1,2,-1
+ 448 546 l 1,3,-1
+ 448 67 l 1,4,-1
+ 604 -16 l 1,5,-1
+ 593 -38 l 1,6,-1
+ 420 52 l 1,7,-1
+ 420 560 l 1,0,-1
+EndSplineSet
+EndChar

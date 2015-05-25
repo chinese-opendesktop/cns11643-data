@@ -1,0 +1,59 @@
+StartChar: brokenbar
+Encoding: 166 166 104
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_4
+ 1
+ 5
+ 2
+ 4
+CALL
+PUSHW_1
+ 1
+SRP0
+PUSHW_1
+ 4
+MDRP[rp0,grey]
+PUSHW_1
+ 2
+SRP0
+PUSHW_1
+ 6
+MDRP[rp0,grey]
+SVTCA[y-axis]
+PUSHW_1
+ 4
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 1
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 1
+ 6
+MIAP[no-rnd]
+EIF
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+526 280 m 1,0,-1
+ 526 -2 l 1,1,-1
+ 481 -2 l 1,2,-1
+ 481 280 l 1,3,-1
+ 526 280 l 1,0,-1
+526 612 m 1,4,-1
+ 526 330 l 1,5,-1
+ 481 330 l 1,6,-1
+ 481 612 l 1,7,-1
+ 526 612 l 1,4,-1
+EndSplineSet
+EndChar

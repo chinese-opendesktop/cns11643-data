@@ -1,0 +1,71 @@
+StartChar: uni29A1
+Encoding: 10657 10657 7616
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 5
+MDAP[rnd]
+PUSHW_1
+ 23
+MDAP[rnd]
+PUSHW_1
+ 15
+MDAP[rnd]
+PUSHW_4
+ 2
+ 4
+ 28
+ 4
+CALL
+PUSHW_1
+ 28
+SRP0
+PUSHW_1
+ 24
+MDRP[rp0,grey]
+PUSHW_1
+ 24
+MDAP[rnd]
+PUSHW_1
+ 28
+SRP0
+PUSHW_1
+ 26
+MDRP[rp0,grey]
+PUSHW_1
+ 26
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+442 278 m 1,0,1
+ 478 286 478 286 513 286 c 0,2,3
+ 542 286 542 286 582 278 c 1,4,-1
+ 654 450 l 1,5,-1
+ 696 434 l 1,6,-1
+ 626 266 l 1,7,8
+ 676 250 676 250 720 220 c 1,9,-1
+ 694 180 l 1,10,11
+ 684 185 684 185 652 204 c 0,12,13
+ 636 214 636 214 608 223 c 1,14,-1
+ 512 -8 l 1,15,-1
+ 416 225 l 1,16,17
+ 380 214 380 214 334 188 c 1,18,-1
+ 310 228 l 1,19,20
+ 364 256 364 256 398 268 c 1,21,-1
+ 330 434 l 1,22,-1
+ 372 450 l 1,23,-1
+ 442 278 l 1,0,1
+460 236 m 1,24,-1
+ 512 109 l 1,25,-1
+ 564 234 l 1,26,27
+ 534 238 534 238 510 238 c 0,28,29
+ 484 238 484 238 460 236 c 1,24,-1
+EndSplineSet
+EndChar

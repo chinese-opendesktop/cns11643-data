@@ -1,0 +1,71 @@
+StartChar: uni2A5A
+Encoding: 10842 10842 7801
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_4
+ 1
+ 5
+ 2
+ 4
+CALL
+PUSHW_3
+ 6
+ 2
+ 1
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHW_1
+ 6
+MDAP[rnd]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 4
+MDAP[rnd]
+PUSHW_1
+ 7
+MDAP[rnd]
+PUSHW_3
+ 0
+ 1
+ 6
+SRP1
+SRP2
+IP
+PUSHW_3
+ 3
+ 1
+ 6
+SRP1
+SRP2
+IP
+PUSHW_3
+ 5
+ 1
+ 6
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+537 399 m 1,0,-1
+ 537 -3 l 1,1,-1
+ 487 -3 l 1,2,-1
+ 487 398 l 1,3,-1
+ 290 -2 l 1,4,-1
+ 234 -2 l 1,5,-1
+ 512 557 l 1,6,-1
+ 790 -2 l 1,7,-1
+ 734 -2 l 1,8,-1
+ 537 399 l 1,0,-1
+EndSplineSet
+EndChar

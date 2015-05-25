@@ -1,0 +1,539 @@
+SplineFontDB: 3.0
+FontName: TW-Kai-Ext-B-98_1
+FullName: TW-Kai-Ext-B
+FamilyName: TW-Kai-Ext-B
+Weight: Book
+Copyright: (c) 2014 RDEC, Executive Yuan, ROC. These fonts are licensed under a Creative Commons "Attribution-NoDerivs 3.0 Taiwan" License, and allowed for redistribution, as long as they are passed along unchanged with the original font name and copyright notice.
+Version: 103.1
+ItalicAngle: 0
+UnderlinePosition: -85
+UnderlineWidth: 50
+Ascent: 820
+Descent: 204
+InvalidEm: 0
+sfntRevision: 0x00670042
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+HasVMetrics: 1
+XUID: [1021 712 1406069543 15424239]
+FSType: 0
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1398242852
+ModificationTime: 1414707033
+PfmFamily: 65
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 3 0 5 0 0 0 0 0 0 0
+OS2TypoAscent: 820
+OS2TypoAOffset: 0
+OS2TypoDescent: -204
+OS2TypoDOffset: 0
+OS2TypoLinegap: 204
+OS2WinAscent: 820
+OS2WinAOffset: 0
+OS2WinDescent: 203
+OS2WinDOffset: 0
+HheadAscent: 820
+HheadAOffset: 0
+HheadDescent: -203
+HheadDOffset: 0
+OS2SubXSize: 512
+OS2SubYSize: 512
+OS2SubXOff: 0
+OS2SubYOff: 0
+OS2SupXSize: 512
+OS2SupYSize: 512
+OS2SupXOff: 0
+OS2SupYOff: 512
+OS2StrikeYSize: 50
+OS2StrikeYPos: 200
+OS2CapHeight: 0
+OS2XHeight: 0
+OS2FamilyClass: 2567
+OS2Vendor: 'DYNA'
+OS2CodePages: 003f00ff.d7ff0000
+OS2UnicodeRanges: 00000001.2a000000.00000000.00000000
+DEI: 91125
+TtTable: prep
+PUSHW_1
+ 0
+CALL
+SVTCA[y-axis]
+PUSHW_3
+ 1
+ 2
+ 2
+CALL
+SVTCA[x-axis]
+PUSHW_3
+ 3
+ 3
+ 2
+CALL
+SVTCA[x-axis]
+PUSHW_8
+ 3
+ 118
+ 97
+ 76
+ 54
+ 35
+ 0
+ 8
+CALL
+PUSHW_8
+ 4
+ 128
+ 97
+ 76
+ 54
+ 35
+ 0
+ 8
+CALL
+PUSHW_8
+ 5
+ 109
+ 97
+ 76
+ 54
+ 35
+ 0
+ 8
+CALL
+SVTCA[y-axis]
+PUSHW_8
+ 1
+ 176
+ 136
+ 106
+ 76
+ 48
+ 0
+ 8
+CALL
+PUSHW_8
+ 2
+ 157
+ 136
+ 106
+ 76
+ 35
+ 0
+ 8
+CALL
+SVTCA[y-axis]
+PUSHW_3
+ 6
+ 4
+ 7
+CALL
+PUSHW_1
+ 0
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+EndTTInstrs
+TtTable: fpgm
+PUSHW_1
+ 0
+FDEF
+MPPEM
+PUSHW_1
+ 8
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHW_1
+ 511
+SCANCTRL
+PUSHW_1
+ 68
+SCVTCI
+PUSHW_2
+ 8
+ 3
+SDS
+SDB
+ENDF
+PUSHW_1
+ 1
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 2
+FDEF
+PUSHW_1
+ 1
+LOOPCALL
+POP
+ENDF
+PUSHW_1
+ 3
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 3
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+EIF
+DUP
+ROLL
+DUP
+ROLL
+MD[grid]
+ABS
+ROLL
+DUP
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+GT
+IF
+SWAP
+NEG
+ROLL
+EIF
+MDAP[rnd]
+DUP
+PUSHB_1
+ 0
+GTEQ
+IF
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+EIF
+ELSE
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+NEG
+EIF
+EIF
+MSIRP[no-rp0]
+ENDF
+PUSHW_1
+ 4
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+ROLL
+EIF
+DUP
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+GT
+IF
+SWAP
+ROLL
+EIF
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+ENDF
+PUSHW_1
+ 5
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+LT
+IF
+LTEQ
+IF
+PUSHB_1
+ 128
+WCVTP
+ELSE
+PUSHB_1
+ 64
+WCVTP
+EIF
+ELSE
+POP
+POP
+DUP
+RCVT
+PUSHB_1
+ 192
+LT
+IF
+PUSHB_1
+ 192
+WCVTP
+ELSE
+POP
+EIF
+EIF
+ENDF
+PUSHW_1
+ 6
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+DUP
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 7
+FDEF
+PUSHW_1
+ 6
+LOOPCALL
+ENDF
+PUSHW_1
+ 8
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 64
+ELSE
+PUSHB_1
+ 0
+EIF
+ROLL
+ROLL
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHB_1
+ 128
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 192
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 256
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 320
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHW_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 3
+CINDEX
+RCVT
+PUSHW_1
+ 384
+LT
+IF
+SWAP
+POP
+PUSHW_1
+ 384
+SWAP
+POP
+ELSE
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+POP
+SWAP
+POP
+EIF
+ELSE
+POP
+EIF
+WCVTP
+ENDF
+PUSHW_1
+ 9
+FDEF
+MPPEM
+GTEQ
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+EndTTInstrs
+ShortTable: cvt  14
+  21
+  32
+  36
+  48
+  44
+  52
+  0
+  0
+  -200
+  1
+  507
+  0
+  685
+  0
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  -17918
+  1278
+  46
+  0
+  0
+  1
+  0
+  0
+  10
+  0
+  512
+  2446
+  0
+  0
+EndShort
+LangName: 1033 "" "" "Regular" "TW-Kai-Ext-B : 22-7-2013" "" "Version 103.1"
+LangName: 1028 "c 2014 +Ti2D72wRVwuITGU/lmJ4FHp2dnxcVYADaDhZ1FThZwMwAmcsW1dXi2qUY6F1KFJ1dSgA-CC+MAxZ01QNahl5Ov8NeYFrYmU5T1wwDQAA-3.0+gfpwY3JIY4hrCmidaz6Ry1H6MAJgqFPv" "+UWhbV16ra2Npd5rU Ext-B" "Regular" "" "+UWhbV16ra2Npd5rU Ext-B" "Version 103.1" "" "Trademark"
+GaspTable: 1 65535 2 0
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 64 16 4
+EndSplineFont

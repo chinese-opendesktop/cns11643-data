@@ -1,0 +1,42 @@
+StartChar: triaglf
+Encoding: 9668 9668 6777
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 2
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 2
+ 12
+MIAP[no-rnd]
+EIF
+PUSHW_3
+ 1
+ 0
+ 2
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+900 117 m 1,0,-1
+ 131 309 l 1,1,-1
+ 900 501 l 1,2,-1
+ 900 117 l 1,0,-1
+EndSplineSet
+EndChar

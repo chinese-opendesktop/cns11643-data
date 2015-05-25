@@ -1,0 +1,73 @@
+StartChar: onedotenleader
+Encoding: 8228 8228 5537
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_3
+ 4
+ 12
+ 3
+CALL
+NPUSHW
+ 5
+ 234
+ 12
+ 250
+ 12
+ 2
+DELTAP1
+NPUSHW
+ 27
+ 25
+ 12
+ 41
+ 12
+ 57
+ 12
+ 73
+ 12
+ 89
+ 12
+ 105
+ 12
+ 121
+ 12
+ 137
+ 12
+ 153
+ 12
+ 169
+ 12
+ 185
+ 12
+ 201
+ 12
+ 217
+ 12
+ 13
+DELTAP1
+SVTCA[y-axis]
+PUSHW_1
+ 8
+MDAP[rnd]
+PUSHW_1
+ 0
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+527 117 m 0,0,1
+ 552 117 552 117 568 99 c 0,2,3
+ 582 84 582 84 582 64 c 0,4,5
+ 582 40 582 40 564 24 c 0,6,7
+ 549 11 549 11 527 11 c 0,8,9
+ 503 11 503 11 487 28 c 0,10,11
+ 473 44 473 44 473 64 c 0,12,13
+ 473 86 473 86 491 103 c 0,14,15
+ 506 117 506 117 527 117 c 0,0,1
+EndSplineSet
+EndChar

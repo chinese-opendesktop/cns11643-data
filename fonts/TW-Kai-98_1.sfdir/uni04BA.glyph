@@ -1,0 +1,172 @@
+StartChar: uni04BA
+Encoding: 1210 1210 1094
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_1
+ 50
+MDAP[rnd]
+PUSHW_1
+ 5
+MDAP[rnd]
+PUSHW_1
+ 50
+SRP0
+PUSHW_1
+ 25
+MDRP[rp0,grey]
+PUSHW_1
+ 25
+MDAP[rnd]
+PUSHW_2
+ 14
+ 5
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 35
+MDRP[rp0,grey]
+PUSHW_1
+ 35
+MDAP[rnd]
+PUSHW_1
+ 5
+SRP0
+PUSHW_2
+ 44
+ 7
+MIRP[rp0,rnd,grey]
+PUSHW_3
+ 36
+ 25
+ 44
+SRP1
+SRP2
+IP
+PUSHW_1
+ 5
+SRP0
+PUSHW_1
+ 41
+MDRP[rp0,grey]
+PUSHW_1
+ 41
+MDAP[rnd]
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 18
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 18
+ 8
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 48
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 48
+ 8
+MIAP[no-rnd]
+EIF
+PUSHW_4
+ 30
+ 2
+ 29
+ 4
+CALL
+PUSHW_4
+ 38
+ 1
+ 8
+ 4
+CALL
+PUSHW_1
+ 18
+SRP0
+PUSHW_2
+ 0
+ 2
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 16
+MDRP[rp0,grey]
+PUSHW_1
+ 17
+MDRP[rp0,grey]
+PUSHW_1
+ 20
+MDRP[rp0,grey]
+PUSHW_1
+ 21
+MDRP[rp0,grey]
+PUSHW_1
+ 29
+SRP0
+PUSHW_1
+ 32
+MDRP[rp0,grey]
+PUSHW_1
+ 21
+SRP0
+PUSHW_1
+ 46
+MDRP[rp0,grey]
+PUSHW_1
+ 47
+MDRP[rp0,grey]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+597 24 m 1,0,-1
+ 617 24 l 2,1,2
+ 644 24 644 24 657 29 c 0,3,4
+ 668 33 668 33 668 48 c 2,5,-1
+ 668 275 l 2,6,7
+ 668 377 668 377 568 377 c 2,8,-1
+ 566 377 l 2,9,10
+ 524 377 524 377 487 353 c 0,11,12
+ 450 328 450 328 432 306 c 1,13,-1
+ 432 48 l 2,14,15
+ 432 24 432 24 479 24 c 2,16,-1
+ 502 24 l 1,17,-1
+ 502 -2 l 1,18,-1
+ 329 -2 l 1,19,-1
+ 329 24 l 1,20,-1
+ 337 24 l 2,21,22
+ 362 24 362 24 375 29 c 0,23,24
+ 386 33 386 33 386 48 c 2,25,-1
+ 386 561 l 2,26,27
+ 386 585 386 585 338 585 c 2,28,-1
+ 310 585 l 1,29,-1
+ 310 609 l 1,30,-1
+ 502 609 l 1,31,-1
+ 502 585 l 1,32,-1
+ 481 585 l 2,33,34
+ 430 585 430 585 430 561 c 2,35,-1
+ 432 339 l 1,36,37
+ 499 404 499 404 570 407 c 2,38,-1
+ 579 407 l 2,39,40
+ 640 407 640 407 672 383 c 0,41,42
+ 713 354 713 354 713 297 c 2,43,-1
+ 713 48 l 2,44,45
+ 713 24 713 24 760 24 c 2,46,-1
+ 788 24 l 1,47,-1
+ 788 -2 l 1,48,-1
+ 597 -2 l 1,49,-1
+ 597 24 l 1,0,-1
+EndSplineSet
+EndChar

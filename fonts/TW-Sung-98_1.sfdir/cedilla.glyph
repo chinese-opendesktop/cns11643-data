@@ -1,0 +1,51 @@
+StartChar: cedilla
+Encoding: 184 184 122
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_4
+ 15
+ 1
+ 10
+ 4
+CALL
+PUSHW_1
+ 15
+SRP0
+PUSHW_2
+ 19
+ 4
+MIRP[rp0,rnd,grey]
+PUSHW_1
+ 21
+MDRP[rp0,grey]
+PUSHW_1
+ 21
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+503 4 m 1,0,-1
+ 540 4 l 1,1,-1
+ 524 -52 l 1,2,3
+ 575 -56 575 -56 596 -69 c 0,4,5
+ 616 -82 616 -82 616 -110 c 0,6,7
+ 616 -148 616 -148 577 -172 c 0,8,9
+ 547 -192 547 -192 507 -190 c 0,10,11
+ 477 -188 477 -188 434 -168 c 1,12,-1
+ 442 -147 l 1,13,14
+ 474 -158 474 -158 501 -158 c 0,15,16
+ 547 -158 547 -158 550 -122 c 0,17,18
+ 552 -88 552 -88 498 -88 c 0,19,20
+ 494 -88 494 -88 478 -90 c 1,21,-1
+ 503 4 l 1,0,-1
+EndSplineSet
+EndChar

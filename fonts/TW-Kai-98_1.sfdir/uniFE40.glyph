@@ -1,0 +1,28 @@
+StartChar: uniFE40
+Encoding: 65088 65088 38744
+Width: 1024
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 2
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+510 444 m 1,0,-1
+ 61 676 l 1,1,-1
+ 82 706 l 1,2,-1
+ 510 482 l 1,3,-1
+ 948 698 l 1,4,-1
+ 963 668 l 1,5,-1
+ 510 444 l 1,0,-1
+EndSplineSet
+EndChar

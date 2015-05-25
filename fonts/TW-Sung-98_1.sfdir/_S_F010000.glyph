@@ -1,0 +1,47 @@
+StartChar: SF010000
+Encoding: 9484 9484 6592
+Width: 1024
+Flags: W
+TtInstrs:
+PUSHW_4
+ 3
+ 5
+ 0
+ 4
+CALL
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 4
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 4
+ 8
+MIAP[no-rnd]
+EIF
+PUSHW_4
+ 1
+ 1
+ 2
+ 4
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+495 320 m 1,0,-1
+ 1022 320 l 1,1,-1
+ 1022 289 l 1,2,-1
+ 527 289 l 1,3,-1
+ 527 -206 l 1,4,-1
+ 495 -206 l 1,5,-1
+ 495 320 l 1,0,-1
+EndSplineSet
+EndChar
