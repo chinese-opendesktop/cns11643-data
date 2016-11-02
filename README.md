@@ -1,7 +1,7 @@
-CFS11643
-========
+CNS11643-Data
+=============
 
-Forked from CNS11643
+Derived from CNS11643
 * Original Page: http://data.gov.tw/node/5961
 * License Page: http://data.gov.tw/?q=principle
 * Original File: http://www.cns11643.gov.tw/AIDB/Open_Data.zip
