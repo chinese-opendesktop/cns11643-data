@@ -1,15 +1,10 @@
-From CNS11643:
-	cns_phonetic: 注音資料表格(以注音符號表示)
-	cns_changjei: 倉頡資料表格(以英文表示)
-	cns_strokes: 筆畫數資料表格(10進位)
-	cns_radical: 部首資料表格(請參考下方的部首代號 radical_word)
-	cns_component: 部件資料表格(請參考下方的部件代號 component_word)
-	cns_strokes_sequence: 筆順資料表格(1表示「橫」、2表示「豎」、3表示「撇」、4表示「點」、5表示「折」)
-	component_word: 部件代號表格(部件代號,部件集合,筆畫數)
-	pinyin: 拼音對照表格(注音,漢語,注音第二式,耶魯,韋式)
-	radical_word: 部首代號表格(16進位)
-
-From CFS11643:
-	phonetic: 注音對照表格
-	component_stroke_sequence: 部件筆順對照表格
-	uni_stroke_sequence: 萬國碼筆順對照表格
+cns_phonetic: 注音資料表格(以注音符號表示)
+cns_changjei: 倉頡資料表格(以英文表示)
+cns_strokes: 筆畫數資料表格(10進位)
+cns_radical: 部首資料表格(請參考下方的部首代號 radical_word)
+cns_component: 部件資料表格(請參考下方的部件代號 component_word)
+cns_strokes_sequence: 筆順資料表格(1表示「橫」、2表示「豎」、3表示「撇」、4表示「點」、5表示「折」)
+component_word: 部件代號表格(部件代號,部件集合,筆畫數)
+pinyin: 拼音對照表格(注音,漢語,注音第二式,耶魯,韋式)
+radical_word: 部首代號表格(16進位)
+phonetic: 注音對照表格

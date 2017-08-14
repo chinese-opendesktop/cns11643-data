@@ -1,0 +1,9 @@
+	join ../mappings/cns2uni.txt ../properties/cns_component.txt|cut -d " " -f 2,3|sed -e 's| | <|' -e 's|,|><|g' -e 's|$|>|' > uni_component.txt
+uni_component: 萬國碼部件對照表格
+component_stroke_sequence: 部件筆順對照表格
+	sed -e 's|^|s/<|' -e 's| |>/|' -e 's|$|/g|' component_stroke_sequence.txt > component_stroke_sequence.sed
+uni_stroke_sequence: 萬國碼筆順對照表格(舊)
+	sed -f component_stroke_sequence.sed uni_component.txt |sort > uni_component_stroke_sequence.txt
+uni_component_stroke_sequence: 萬國碼部件筆順對照表格
+	./mk-cns11643_stroke.sh > cns11643_stroke
+cns11643_stroke: GLIBC 漢字排序
